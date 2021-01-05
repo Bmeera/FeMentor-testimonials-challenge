@@ -26,8 +26,6 @@
     right: 1em;
     top: 0;
     z-index: 10;
-    width: 130px;
-    height: 128px;
 }
 .item1 {
     background-color: hsl(263, 55%, 52%);
@@ -72,7 +70,9 @@
 .testimonial .testimony q {
     opacity: 70%;
 }
-.testimonial .testimony p {
+.testimonial .bio,
+.testimonial .testimony p
+ {
     position: relative;
     z-index: 100;
 }
@@ -110,5 +110,7 @@
     }
     .quote_svg img {
         right: 7em;
+        width: 130px;
+        height: 128px;
     }
 }
