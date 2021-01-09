@@ -19,7 +19,7 @@
 .testimonial {
     padding: 15px 30px 30px 30px;
     border-radius: 10px;
-    box-shadow: 1px 1px 5px  rgb(122, 122, 122);
+    box-shadow: 6px 6px 22px  rgb(218, 211, 211);
 }
 .quote_svg img {
     position: absolute;
@@ -92,7 +92,7 @@
      color: hsl(228, 45%, 44%); 
 }
 
-@media screen and (min-width: 1440px){
+@media screen and (min-width: 1200px){
     .grid-container {
         grid-template-columns: repeat(4, 1fr);
     }
